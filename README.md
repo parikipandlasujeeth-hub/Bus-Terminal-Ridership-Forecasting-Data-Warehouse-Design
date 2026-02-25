@@ -1,5 +1,22 @@
 # Bus Terminal Ridership Forecasting & Data Warehouse Design
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [System Architecture](#system-architecture)
+- [Historical Trend Analysis](#historical-trend-analysis)
+- [Long-Term Forecasting (2026–2030)](#long-term-forecasting-2026–2030)
+- [Yearly Ridership Forecast](#yearly-ridership-forecast-2026–2030)
+- [Carrier-Level Forecasting](#carrier-level-forecasting)
+- [Tech Stack](#tech-stack)
+- [System Requirements](#system-requirements)
+- [Installation Guide](#installation-guide)
+- [Design Decisions](#design-decisions)
+- [Business Use Case](#business-use-case)
+- [Future Enhancements](#future-enhancements)
+- [Repository Structure](#repository-structure)
+- [Author](#author)
+
 ## Project Overview
 
 This project analyzes historical bus terminal ridership data and develops a structured data warehouse along with long-term passenger forecasting (2026–2030).
@@ -114,6 +131,74 @@ This analysis supports:
 - Fact & Dimension Tables
 - SQL Warehouse Implementation
 
+## System Requirements
+
+Before running the project locally, ensure the following:
+
+- Python 3.8+
+- Jupyter Notebook
+- Power BI Desktop (Latest Version)
+- SQL Server / MySQL (for warehouse schema execution)
+- Git (for cloning the repository)
+
+Required Python Libraries:
+
+- pandas
+- numpy
+- matplotlib
+- prophet
+
+## Installation Guide
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Bus-Terminal-Ridership-Forecasting.git
+```
+
+### 2. Install Required Python Libraries
+
+```bash
+pip install pandas numpy matplotlib prophet
+```
+
+### 3. Run Notebooks
+
+- Open data_preprocessing.ipynb
+- Execute long_term_forecasting.py.ipynb
+
+### 4. Open Power BI Dashboard
+
+- Open .pbix files in Power BI Desktop
+
+
+## Design Decisions
+
+### Technology Stack
+
+- Python for data preprocessing and forecasting
+- SQL for dimensional warehouse modeling
+- Power BI for visualization and reporting
+
+### Data Modeling
+
+- Implemented Star Schema architecture
+- Created Fact and Dimension tables
+- Optimized joins for aggregation performance
+
+### Forecasting Approach
+
+- Time series modeling using Prophet
+- Incorporated trend and seasonality components
+- Generated multi-year forecast projections (2026–2030)
+
+### Visualization Design
+
+- Clean executive-style dashboards
+- Clear hierarchy of KPIs
+- Segmented carrier comparison
+- Trend + forecast visualization layering
+
 ## Repository Structure
 
 ```
@@ -136,6 +221,14 @@ Bus-Terminal-Ridership-Forecasting/
 └── README.md
 ```
 
+## Future Enhancements
+
+- Real-time ridership API integration
+- Weather-based ridership impact modeling
+- Machine learning model comparison (ARIMA, LSTM)
+- Automated ETL pipeline
+- Interactive forecasting dashboard in Power BI
+
 ## Power BI Dashboard
 
 The Power BI dashboards provide:
@@ -151,7 +244,7 @@ Dashboard files:
 - Fall 2025_BANL-6430-02_Group 5_Dashboard.pbix
 - Visualizations.pbix
 
-## Business Impact
+## Business Use Case
 
 This project enables:
 
@@ -176,3 +269,9 @@ This project was completed as part of BANL-6430 Business Analytics coursework an
 - Predictive Modeling
 - Data Warehousing
 - Business Intelligence Visualization
+
+## Author
+
+**Sujeeth Parikipandla**  
+Graduate Student – Business Analytics  
+Focused on Predictive Modeling, Data Warehousing & Business Intelligence

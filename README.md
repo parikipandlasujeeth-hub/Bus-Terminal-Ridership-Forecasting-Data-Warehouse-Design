@@ -18,6 +18,7 @@ The objective is to enable data-driven decision-making for capacity planning, op
 
 The project follows a complete data analytics pipeline:
 
+```
 Raw Data (Excel)
 ↓
 Data Cleaning & Feature Engineering (Python)
@@ -27,7 +28,7 @@ SQL Data Warehouse (Star Schema)
 Time Series Forecasting Model
 ↓
 Power BI Dashboard & Visual Analytics
-
+```
 
 ### Data Warehouse Architecture
 

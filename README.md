@@ -229,10 +229,10 @@ This project enables:
 
 ## How to Run
 
-1. Open `data_preprocessing.ipynb` to clean and prepare the dataset.
-2. Execute `long_term_forecasting.py.ipynb` to generate forecasts.
-3. Run SQL scripts to create the data warehouse schema.
-4. Open `.pbix` files in Power BI Desktop to explore dashboards.
+1. Execute `data_preprocessing.ipynb` to clean and structure the dataset.
+2. Run `long_term_forecasting.py.ipynb` to generate long-term projections (2026–2030).
+3. Use the SQL scripts to create the Star Schema warehouse.
+4. Open the `.pbix` files in Power BI Desktop to interact with dashboards and forecast visualizations.
 
 ## Academic Context
 

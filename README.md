@@ -1,7 +1,5 @@
 # Bus Terminal Ridership Forecasting & Data Warehouse Design
 
----
-
 ## Project Overview
 
 This project analyzes historical bus terminal ridership data and develops a structured data warehouse along with long-term passenger forecasting (2026–2030).
@@ -15,8 +13,6 @@ The solution integrates:
 - Business Intelligence Visualization (Power BI)
 
 The objective is to enable data-driven decision-making for capacity planning, operational optimization, and strategic forecasting.
-
----
 
 ## System Architecture
 
@@ -46,8 +42,6 @@ The dimensional model includes:
 ![data_warehouse_schema png](https://github.com/user-attachments/assets/949d62fb-c42f-4c41-a3fd-42816026d862)
 
 
----
-
 ## Historical Trend Analysis
 
 Monthly ridership trends were analyzed to identify:
@@ -66,8 +60,6 @@ Key Observations:
 - Increasing yearly ridership trend
 - Mid-year peak demand periods
 
----
-
 ## Long-Term Forecasting (2026–2030)
 
 A time-series forecasting model was developed to project future ridership demand.
@@ -81,8 +73,6 @@ The model captures:
 ![monthly_forecast_combined png](https://github.com/user-attachments/assets/7d4b7dbb-6166-4f92-99a6-f2dd0051ca70)
 
 
----
-
 ## Yearly Ridership Forecast (2026–2030)
 
 Annual passenger totals were projected to evaluate long-term growth.
@@ -91,8 +81,6 @@ Annual passenger totals were projected to evaluate long-term growth.
 
 
 The forecast indicates consistent upward growth through 2030.
-
----
 
 ## Carrier-Level Forecasting
 
@@ -106,8 +94,6 @@ This analysis supports:
 - Carrier performance benchmarking
 - Resource allocation optimization
 - Strategic operational planning
-
----
 
 ## Tech Stack
 
@@ -127,10 +113,9 @@ This analysis supports:
 - Fact & Dimension Tables
 - SQL Warehouse Implementation
 
----
-
 ## Repository Structure
 
+```
 Bus-Terminal-Ridership-Forecasting/
 │
 ├── data_preprocessing.ipynb
@@ -148,9 +133,7 @@ Bus-Terminal-Ridership-Forecasting/
 ├── Predictive Factors and Carrier Level Forecasting.docx
 ├── PowerBI Visualization.docx
 └── README.md
-
-
----
+```
 
 ## Power BI Dashboard
 
@@ -167,8 +150,6 @@ Dashboard files:
 - Fall 2025_BANL-6430-02_Group 5_Dashboard.pbix
 - Visualizations.pbix
 
----
-
 ## Business Impact
 
 This project enables:
@@ -179,16 +160,12 @@ This project enables:
 - Carrier performance evaluation
 - Scalable analytics architecture
 
----
-
 ## How to Run
 
 1. Open `data_preprocessing.ipynb` to clean and prepare the dataset.
 2. Execute `long_term_forecasting.py.ipynb` to generate forecasts.
 3. Run SQL scripts to create the data warehouse schema.
 4. Open `.pbix` files in Power BI Desktop to explore dashboards.
-
----
 
 ## Academic Context
 
@@ -198,5 +175,3 @@ This project was completed as part of BANL-6430 Business Analytics coursework an
 - Predictive Modeling
 - Data Warehousing
 - Business Intelligence Visualization
-
----

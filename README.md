@@ -157,7 +157,7 @@ Required Python Libraries:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Bus-Terminal-Ridership-Forecasting.git
+git clone https://github.com/parikipandlasujeeth-hub/Bus-Terminal-Ridership-Forecasting-Data-Warehouse-Design.git
 ```
 
 ### 2. Install Required Python Libraries

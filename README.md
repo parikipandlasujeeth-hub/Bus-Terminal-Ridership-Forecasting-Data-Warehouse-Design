@@ -6,15 +6,18 @@
 - [System Architecture](#system-architecture)
 - [Historical Trend Analysis](#historical-trend-analysis)
 - [Long-Term Forecasting (2026–2030)](#long-term-forecasting-2026–2030)
-- [Yearly Ridership Forecast](#yearly-ridership-forecast-2026–2030)
+- [Yearly Ridership Forecast (2026–2030)](#yearly-ridership-forecast-2026–2030)
 - [Carrier-Level Forecasting](#carrier-level-forecasting)
 - [Tech Stack](#tech-stack)
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
 - [Design Decisions](#design-decisions)
+- [Power BI Dashboard](#power-bi-dashboard)
 - [Business Use Case](#business-use-case)
-- [Future Enhancements](#future-enhancements)
+- [How to Run](#how-to-run)
+- [Academic Context](#academic-context)
 - [Repository Structure](#repository-structure)
+- [Future Enhancements](#future-enhancements)
 - [Author](#author)
 
 ## Project Overview
@@ -199,36 +202,6 @@ pip install pandas numpy matplotlib prophet
 - Segmented carrier comparison
 - Trend + forecast visualization layering
 
-## Repository Structure
-
-```
-Bus-Terminal-Ridership-Forecasting/
-│
-├── data_preprocessing.ipynb
-├── long_term_forecasting.py.ipynb
-├── Combined_Tables.xlsx
-├── Fall 2025_BANL-6430-02_Group 5_Dataset.sql
-├── Data_Warehouse_Tables.sql
-├── Fall 2025_BANL-6430-02_Group 5_Dashboard.pbix
-├── Visualizations.pbix
-├── Final Project Report.docx
-├── Final Project Presentation.pptx
-├── SQL_SchemaDesign.docx
-├── Data Cleaning and Preprocessing.docx
-├── Long-Term Forecasting (2026-30).docx
-├── Predictive Factors and Carrier Level Forecasting.docx
-├── PowerBI Visualization.docx
-└── README.md
-```
-
-## Future Enhancements
-
-- Real-time ridership API integration
-- Weather-based ridership impact modeling
-- Machine learning model comparison (ARIMA, LSTM)
-- Automated ETL pipeline
-- Interactive forecasting dashboard in Power BI
-
 ## Power BI Dashboard
 
 The Power BI dashboards provide:
@@ -269,6 +242,36 @@ This project was completed as part of BANL-6430 Business Analytics coursework an
 - Predictive Modeling
 - Data Warehousing
 - Business Intelligence Visualization
+
+## Repository Structure
+
+```
+Bus-Terminal-Ridership-Forecasting/
+│
+├── data_preprocessing.ipynb
+├── long_term_forecasting.py.ipynb
+├── Combined_Tables.xlsx
+├── Fall 2025_BANL-6430-02_Group 5_Dataset.sql
+├── Data_Warehouse_Tables.sql
+├── Fall 2025_BANL-6430-02_Group 5_Dashboard.pbix
+├── Visualizations.pbix
+├── Final Project Report.docx
+├── Final Project Presentation.pptx
+├── SQL_SchemaDesign.docx
+├── Data Cleaning and Preprocessing.docx
+├── Long-Term Forecasting (2026-30).docx
+├── Predictive Factors and Carrier Level Forecasting.docx
+├── PowerBI Visualization.docx
+└── README.md
+```
+
+## Future Enhancements
+
+- Real-time ridership API integration
+- Weather-based ridership impact modeling
+- Machine learning model comparison (ARIMA, LSTM)
+- Automated ETL pipeline
+- Interactive forecasting dashboard in Power BI
 
 ## Author
 

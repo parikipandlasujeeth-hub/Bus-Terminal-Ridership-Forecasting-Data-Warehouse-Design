@@ -4,7 +4,7 @@
 
 - [Project Overview](#project-overview)
 - [System Architecture](#system-architecture)
-- [Data Warehouse Architecture](#data-warehouse-architecture)
+- [Data Warehouse Schema](#data-warehouse-schema)
 - [Historical Trend Analysis](#historical-trend-analysis)
 - [Long-Term Forecasting (2026–2030)](#long-term-forecasting-20262030)
 - [Yearly Ridership Forecast (2026–2030)](#yearly-ridership-forecast-20262030)
@@ -51,7 +51,7 @@ Time Series Forecasting Model
 Power BI Dashboard & Visual Analytics
 ```
 
-## Data Warehouse Architecture
+## Data Warehouse Schema
 
 The dimensional model includes:
 

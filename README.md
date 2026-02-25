@@ -4,9 +4,10 @@
 
 - [Project Overview](#project-overview)
 - [System Architecture](#system-architecture)
+- [Data Warehouse Architecture](#data-warehouse-architecture)
 - [Historical Trend Analysis](#historical-trend-analysis)
-- [Long-Term Forecasting (2026–2030)](#long-term-forecasting-2026–2030)
-- [Yearly Ridership Forecast (2026–2030)](#yearly-ridership-forecast-2026–2030)
+- [Long-Term Forecasting (2026–2030)](#long-term-forecasting-20262030)
+- [Yearly Ridership Forecast (2026–2030)](#yearly-ridership-forecast-20262030)
 - [Carrier-Level Forecasting](#carrier-level-forecasting)
 - [Tech Stack](#tech-stack)
 - [System Requirements](#system-requirements)
@@ -50,7 +51,7 @@ Time Series Forecasting Model
 Power BI Dashboard & Visual Analytics
 ```
 
-### Data Warehouse Architecture
+## Data Warehouse Architecture
 
 The dimensional model includes:
 
